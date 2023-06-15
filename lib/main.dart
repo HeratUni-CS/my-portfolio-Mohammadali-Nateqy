@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Center(
+              const Center(
                 child: CircleAvatar(
                   radius: 50,
                   backgroundImage: AssetImage("images/picture.jpg"),
                 ),
               ),
-              Text(
+              const Text(
                 'Mohammad Ali Nateqy',
                 style: TextStyle(
                   color: Colors.white,
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal[100],
                 ),
               ),
-              Card(
+              const Card(
                 margin: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
                 child: ListTile(
                   leading: Icon(
